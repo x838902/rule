@@ -40,7 +40,7 @@
     {"tag": "🇸🇬 狮城手动", "type": "selector", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["新加坡|坡|狮城|SG|Singapore"]}, {"action": "exclude", "keywords": ["免费"]}]},
     {"tag": "🇺🇲 美国手动", "type": "selector", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["🇺🇸|US|us|美国|美|United States"]}, {"action": "exclude", "keywords": ["AUS|RUS|免费"]}]},
     {"tag": "TW 台湾手动", "type": "selector", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["台湾|TW|tw"]}, {"action": "exclude", "keywords": ["AUS|RUS|免费"]}]},
-    {"tag": "AI 自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["GPT"]}, {"action": "exclude", "keywords": ["AUS|RUS|免费"]}]},
+    {"tag": "AI 自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["GPT"]}, {"action": "exclude", "keywords": ["AUS|RUS|免费|台湾"]}]},
     {"tag": "🐸 手动选择", "type": "selector", "outbounds": ["{all}"], "filter": [{"action": "exclude", "keywords": ["网站|流量|地址|剩余|过期|免费|时间|有效|Traffic|ExpireDate|GB|Expire Date"]}]},
     {"tag": "♻️ 自动选择", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "exclude", "keywords": ["官网|到期时间|剩余|流量|套餐|免费|订阅|全球直连|GB|Expire Date|Traffic|ExpireDate"]}], "interval": "10m", "tolerance": 100},
     {"tag": "🍃 延迟辅助", "type": "urltest", "outbounds": ["🚀 默认代理", "🎯 全球直连"]},
