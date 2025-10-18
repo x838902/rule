@@ -114,12 +114,6 @@
       "listen_port": 8080
     },
     {
-      "tag": "socks-in",
-      "type": "socks",
-      "listen": "::",
-      "listen_port": 1080
-    },
-    {
       "tag": "redirect-in",
       "type": "redirect",
       "listen": "::",
@@ -141,8 +135,8 @@
     "clash_api": {
       "external_controller": "0.0.0.0:9095",
       "external_ui": "/etc/momo/run/ui",
-      "external_ui_download_url": "https://gh-proxy.com/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
-      "external_ui_download_detour": "🎯 全球直连",
+      "external_ui_download_url": "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
+      "external_ui_download_detour": "♻️ 自动选择",
       "secret": "",
       "default_mode": "rule"
     }
